@@ -1,5 +1,3 @@
-# Roblox-Town Script
-
 local houses = {"small house", "medium house", "large house"}
 local shops = {"grocery store", "clothing store", "electronics store"}
 local public_buildings = {"library", "police station", "school"}
