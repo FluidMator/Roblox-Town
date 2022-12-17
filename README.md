@@ -1,2 +1,43 @@
 # Roblox-Town
 RobloxTown Sciprt
+Script Here:
+
+local houses = {"small house", "medium house", "large house"}
+local shops = {"grocery store", "clothing store", "electronics store"}
+local public_buildings = {"library", "police station", "school"}
+local restaurants = {"fast food", "sit-down", "cafe"}
+
+local town = {}
+
+local num_houses = math.random(10, 20)
+
+for i = 1, num_houses do
+	local house_type = houses[math.random(1, #houses)]
+	table.insert(town, house_type)
+end
+
+local num_shops = math.random(5, 10)
+
+for i = 1, num_shops do
+	local shop_type = shops[math.random(1, #shops)]
+	table.insert(town, shop_type)
+end
+
+local num_public_buildings = math.random(3, 5)
+
+for i = 1, num_public_buildings do
+	local public_building_type = public_buildings[math.random(1, #public_buildings)]
+	table.insert(town, public_building_type)
+end
+
+local num_restaurants = math.random(3, 5)
+
+for i = 1, num_restaurants do
+	local restaurant_type = restaurants[math.random(1, #restaurants)]
+	table.insert(town, restaurant_type)
+end
+
+print("Buildings in the town:")
+for i, building in ipairs(town) do
+	print(building)
+end
