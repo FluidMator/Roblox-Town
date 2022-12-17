@@ -1,6 +1,4 @@
-# Roblox-Town
-RobloxTown Sciprt
-Script Here:
+# Roblox-Town Script
 
 local houses = {"small house", "medium house", "large house"}
 local shops = {"grocery store", "clothing store", "electronics store"}
